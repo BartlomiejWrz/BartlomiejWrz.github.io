@@ -4,10 +4,15 @@
     font-family: 'Lato', sans-serif;
 }
 
-header {
+#container {
     width: 1000px;
+    margin: auto
+}
+
+header {
+
     height: 300px;
-    margin: auto auto;
+
     text-align: center;
     background-color: darkred;
 }
@@ -41,10 +46,9 @@ h1, h3 {
 }
 
 main {
-    width: 1000px;
+
     height: 500px;
     background-color: antiquewhite;
-    margin: auto auto;
 
 }
 
@@ -100,9 +104,6 @@ a:visited {
 
 footer {
     clear: both;
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
 }
 
