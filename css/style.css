@@ -12,7 +12,6 @@
 header {
 
     height: 300px;
-
     text-align: center;
     background-color: darkred;
 }
@@ -61,6 +60,80 @@ article {
     padding: 20px 20px;
     text-align: center;
 
+}
+
+button {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#content {
+    height: 456px;
+    width: 500px;
+    background-color: darkred;
+    color: black;
+    background-size: cover;
+    float: left
+
+}
+
+#form {
+    height: 456px;
+    width: 274px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    float: left;
+}
+
+input[name=email] {
+    text-align: center;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    color: darkred;
+}
+
+form {
+    background-color: yellow;
+}
+
+input[type=text],
+input[type=name] {
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    color: darkred;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    border: 2px solid;
+    border: 2px solid;
+    border-radius: 10px;
+    color: darkred;
+    background-color: white;
+}
+
+textarea {
+    text-align: left;
+    width: 200px;
+    height: 263px;
+    background-color: white;
+    color: darkred;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
 }
 
 aside {

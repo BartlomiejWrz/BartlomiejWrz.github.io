@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>My first WebSite</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
 <div id="container">
     <header>
         <div id="image">
-            <img src="DSC_0165.jpg" alt="Bartłomiej Wrzesiński"/>
+            <img src="images/DSC_0165.jpg" alt="Bartłomiej Wrzesiński"/>
         </div>
         <div id="info">
             <h1>Bartłomiej Wrzesiński</h1>
@@ -20,10 +20,25 @@
     <main>
         <article>
 
-            <p>
-                MY FUTURE EXPERIANCE:
-            </p>
+            <div id="content">
+                <p>EXPERIANCE:</p>
+            </div>
 
+            <div id="form">
+                <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                    <p>FORM:</p>
+                    <input type="hidden" name="reply-to" value="bartlomiej18@op.pl">
+                    <br/>
+                    <input placeholder="Your name:" type="text" name="name">
+                    <br/>
+                    <input placeholder="Your e-mail:" type="text" name="email">
+                    <br/>
+
+                    <textarea placeholder="Message:" rows="25" cols="50" name="message"></textarea>
+                    <br/>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
 
         </article>
         <aside>
