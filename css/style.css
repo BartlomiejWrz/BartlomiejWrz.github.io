@@ -2,15 +2,15 @@
     background-color: black;
     color: white;
     font-family: 'Lato', sans-serif;
+
 }
 
-#container {
+.container {
     width: 1000px;
     margin: auto
 }
 
 header {
-
     height: 300px;
     text-align: center;
     background-color: darkred;
@@ -20,16 +20,11 @@ img {
     height: 300px;
     width: 350px;
     border-radius: 50%;
-}
-
-#image {
     float: left;
-    height: 300px;
     background-color: darkred;
-
 }
 
-#info {
+.info {
     float: left;
     background-color: darkred;
     height: 300px;
@@ -67,7 +62,7 @@ button {
     margin-right: 100px;
 }
 
-#content {
+.content {
     height: 456px;
     width: 500px;
     background-color: darkred;
@@ -77,7 +72,7 @@ button {
 
 }
 
-#form {
+.form {
     height: 456px;
     width: 274px;
     text-align: center;
@@ -86,26 +81,20 @@ button {
     float: left;
 }
 
-input[name=email] {
-    text-align: center;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 10px;
-    color: darkred;
-}
-
 form {
     background-color: yellow;
 }
 
-input[type=text],
-input[type=name] {
+.input {
     text-align: center;
-    width: 200px;
     background-color: white;
-    color: darkred;
     border: 2px solid;
     border-radius: 10px;
+    color: darkred;
+}
+
+.input--mail, .input--name {
+    width: 200px;
     font-size: 20px;
     padding: 10px;
     box-sizing: border-box;
@@ -113,22 +102,10 @@ input[type=name] {
     margin-top: 10px;
 }
 
-input[type=submit] {
-    border: 2px solid;
-    border: 2px solid;
-    border-radius: 10px;
-    color: darkred;
-    background-color: white;
-}
-
-textarea {
+.input--text {
     text-align: left;
     width: 200px;
     height: 263px;
-    background-color: white;
-    color: darkred;
-    border: 2px solid;
-    border-radius: 10px;
     font-size: 15px;
     padding: 10px;
     box-sizing: border-box;
@@ -169,10 +146,6 @@ a:link {
 a:hover {
     text-decoration: none;
     color: red;
-}
-
-a:visited {
-    text-decoration: none;
 }
 
 footer {

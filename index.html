@@ -7,12 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
-<div id="container">
+<div class="container">
     <header>
-        <div id="image">
-            <img src="images/DSC_0165.jpg" alt="Bartłomiej Wrzesiński"/>
+        <div>
+            <img src="./images/DSC_0165.jpg" alt="Bartłomiej Wrzesiński"/>
         </div>
-        <div id="info">
+        <div class="info">
             <h1>Bartłomiej Wrzesiński</h1>
             <h3>Junior Front End Developer</h3>
         </div>
@@ -20,23 +20,24 @@
     <main>
         <article>
 
-            <div id="content">
+            <div class="content">
                 <p>EXPERIANCE:</p>
             </div>
 
-            <div id="form">
+            <div class="form">
                 <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
                     <p>FORM:</p>
-                    <input type="hidden" name="reply-to" value="bartlomiej18@op.pl">
+                    <input class="input " type="hidden" name="reply-to" value="bartlomiej18@op.pl">
                     <br/>
-                    <input placeholder="Your name:" type="text" name="name">
+                    <input class="input input--name" placeholder="Your name:" type="text" name="name">
                     <br/>
-                    <input placeholder="Your e-mail:" type="text" name="email">
+                    <input class="input input--mail" placeholder="Your e-mail:" type="text" name="email">
                     <br/>
 
-                    <textarea placeholder="Message:" rows="25" cols="50" name="message"></textarea>
+                    <textarea class="input input--text" placeholder="Message:" rows="25" cols="50"
+                              name="message"></textarea>
                     <br/>
-                    <input type="submit" value="Send">
+                    <input class="input" type="submit" value="Send">
                 </form>
             </div>
 
