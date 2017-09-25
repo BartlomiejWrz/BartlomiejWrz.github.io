@@ -2,11 +2,12 @@
     background-color: black;
     color: white;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 
 }
 
 .container {
-    width: 1000px;
+
     margin: auto
 }
 
@@ -16,12 +17,12 @@ header {
     background-color: darkred;
 }
 
-img {
-    height: 300px;
-    width: 350px;
-    border-radius: 50%;
-    float: left;
-    background-color: darkred;
+.img {
+    background-image:url("http://infoshareacademy.com/images/infoshare_og.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
 }
 
 .info {
@@ -48,7 +49,6 @@ main {
 
 article {
     float: left;
-    width: 778px;
     height: 458px;
     background-color: darkblue;
     border: solid yellow 1px;
@@ -72,46 +72,7 @@ button {
 
 }
 
-.form {
-    height: 456px;
-    width: 274px;
-    text-align: center;
-    background-color: yellow;
-    color: red;
-    float: left;
-}
 
-form {
-    background-color: yellow;
-}
-
-.input {
-    text-align: center;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 10px;
-    color: darkred;
-}
-
-.input--mail, .input--name {
-    width: 200px;
-    font-size: 20px;
-    padding: 10px;
-    box-sizing: border-box;
-    outline: none;
-    margin-top: 10px;
-}
-
-.input--text {
-    text-align: left;
-    width: 200px;
-    height: 263px;
-    font-size: 15px;
-    padding: 10px;
-    box-sizing: border-box;
-    outline: none;
-    margin-top: 10px;
-}
 
 aside {
     float: left;
@@ -148,8 +109,96 @@ a:hover {
     color: red;
 }
 
+.form {
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+}
+
+form {
+    background-color: yellow;
+}
+
+.input {
+    text-align: center;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    color: darkred;
+}
+
+.input--mail, .input--name {
+    float:left;
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+.input--text {
+    text-align: left;
+    width: auto;
+    height: 263px;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #0067ff;
+}
+
+
+.icon-facebook:hover {
+    background-color: #4668b3;
+}
+
+.icon-gplus:hover {
+    background-color: #DD4B3E;
+}
+
+.icon-twitter:hover {
+    background-color: #139FF2;
+}
+
+.icon-instagram-1:hover {
+    background-color: #D02E91;
+}
+
+.icon-youtube:hover {
+    background-color: #E62117;
+}
+
 footer {
     clear: both;
     text-align: center;
 }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 

@@ -5,44 +5,34 @@
     <title>My first WebSite</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="fontello/css/fontello.css">
 </head>
 <body>
 <div class="container">
-    <header>
-        <div>
-            <img src="./images/DSC_0165.jpg" alt="Bartłomiej Wrzesiński"/>
+    <header class="col-12">
+        <div class="row">
+        <div class="img col-3">
+
         </div>
-        <div class="info">
+        <div class="info col-9">
             <h1>Bartłomiej Wrzesiński</h1>
             <h3>Junior Front End Developer</h3>
         </div>
+        </div>
     </header>
     <main>
+        <div class="row">
         <article>
 
-            <div class="content">
+
+            <div class="content col-12">
                 <p>EXPERIANCE:</p>
             </div>
 
-            <div class="form">
-                <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
-                    <p>FORM:</p>
-                    <input class="input " type="hidden" name="reply-to" value="bartlomiej18@op.pl">
-                    <br/>
-                    <input class="input input--name" placeholder="Your name:" type="text" name="name">
-                    <br/>
-                    <input class="input input--mail" placeholder="Your e-mail:" type="text" name="email">
-                    <br/>
 
-                    <textarea class="input input--text" placeholder="Message:" rows="25" cols="50"
-                              name="message"></textarea>
-                    <br/>
-                    <input class="input" type="submit" value="Send">
-                </form>
-            </div>
 
         </article>
-        <aside>
+        <aside class="col-3">
             <p>My projects:</p>
             <ul>
                 <li>
@@ -57,7 +47,52 @@
             </ul>
 
         </aside>
+        </div>
     </main>
+
+
+
+    <div class="form">
+        <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+            <p>FORM:</p>
+            <input class="input " type="hidden" name="reply-to" value="bartlomiej18@op.pl">
+            <br/>
+            <input class="input input--name" placeholder="Your name:" type="text" name="name">
+            <br/>
+            <input class="input input--mail" placeholder="Your e-mail:" type="text" name="email">
+            <br/>
+
+            <textarea class="input input--text" placeholder="Message:" rows="25" cols="50"
+                      name="message"></textarea>
+            <br/>
+            <input class="input" type="submit" value="Send">
+        </form>
+    </div>
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-lg-12 social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <div class="icon-facebook"></div>
+                </a>
+                <a href="https://plus.google.com/" target="_blank">
+                    <div class="icon-gplus col"></div>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <div class="icon-twitter"></div>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <div class=icon-instagram-1></div>
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <div class="icon-youtube"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>&copy; Bartłomiej Wrzesiński</p>
     </footer>

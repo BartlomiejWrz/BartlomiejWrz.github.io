@@ -1,0 +1,76 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 61594,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram-1",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 61593,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a9862b9d5197886c1ad693ecd7120b31",
+      "css": "youtube",
+      "code": 61799,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b945f4ac2439565661e8e4878e35d379",
+      "css": "gplus",
+      "code": 62223,
+      "src": "entypo"
+    },
+    {
+      "uid": "5cc58545bb38c912940470480d3df145",
+      "css": "restaurant",
+      "code": 59442,
+      "src": "maki"
+    },
+    {
+      "uid": "cfaa8fbbdcc7bb8d636cb974aad1f9b9",
+      "css": "glass",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3d1e04316a48ace4e2b81be58343a41c",
+      "css": "building",
+      "code": 61687,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d27bcf5c8638e4078aaadae1d49b6909",
+      "css": "fast-food",
+      "code": 59413,
+      "src": "maki"
+    },
+    {
+      "uid": "c2e02247804b8372740de0b76311f1ad",
+      "css": "beer",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "19d9ceb791d76257545e308954808fc1",
+      "css": "monument",
+      "code": 59431,
+      "src": "maki"
+    }
+  ]
+}
