@@ -4,22 +4,24 @@
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
 
+
 }
 
 .container {
 
-    margin: auto
+    margin: auto;
+
 }
 
 header {
-    height: 300px;
+    height: auto;
     text-align: center;
     background-color: darkred;
 }
 
 .img {
-    background-image:url("http://infoshareacademy.com/images/infoshare_og.png");
-    background-repeat: no-repeat;
+    background-image: url("http://infoshareacademy.com/images/infoshare_og.png");
+    background-repeat:no-repeat;
     background-size: cover;
     height: 100%;
 
@@ -28,56 +30,32 @@ header {
 .info {
     float: left;
     background-color: darkred;
-    height: 300px;
-    width: 650px;
+    height: auto;
+    width: auto;
     text-align: center;
 
 }
 
 h1, h3 {
     background-color: darkred;
-    margin: 60px auto;
+    margin:  auto;
 
 }
 
-main {
-
-    height: 500px;
-    background-color: antiquewhite;
-
-}
-
-article {
-    float: left;
-    height: 458px;
-    background-color: darkblue;
-    border: solid yellow 1px;
-    padding: 20px 20px;
-    text-align: center;
-
-}
-
-button {
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 .content {
-    height: 456px;
-    width: 500px;
+    height: auto;
+    width: 100%;
     background-color: darkred;
     color: black;
     background-size: cover;
-    float: left
+
 
 }
 
-
-
 aside {
-    float: left;
-    width: 180px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     background-color: yellow;
     text-align: center;
 }
@@ -109,6 +87,7 @@ a:hover {
     color: red;
 }
 
+        /*FORM*/
 .form {
     height: auto;
     width: auto;
@@ -117,9 +96,6 @@ a:hover {
     color: red;
 }
 
-form {
-    background-color: yellow;
-}
 
 .input {
     text-align: center;
@@ -130,19 +106,19 @@ form {
 }
 
 .input--mail, .input--name {
-    float:left;
     width: auto;
     font-size: 20px;
     padding: 10px;
-    box-sizing: border-box;
-    outline: none;
     margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+
 }
 
 .input--text {
     text-align: left;
     width: auto;
-    height: 263px;
+    max-height: 150px;
     font-size: 15px;
     padding: 10px;
     box-sizing: border-box;
@@ -151,12 +127,14 @@ form {
 }
 
 
+/*SOCIALS*/
+
 .social {
     display: flex;
     justify-content: space-around;
-    background-color:  #0067ff;
-}
 
+
+}
 
 .icon-facebook:hover {
     background-color: #4668b3;
@@ -178,27 +156,30 @@ form {
     background-color: #E62117;
 }
 
+
 footer {
-    clear: both;
     text-align: center;
 }
+
+
+    /*RWD*/
 
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {  width: 8.33%;  }
+.col-2 {  width: 16.66%;  }
+.col-3 {  width: 25%;  }
+.col-4 {  width: 33.33%;  }
+.col-5 {  width: 41.66%;  }
+.col-6 {  width: 50%;  }
+.col-7 {  width: 58.33%;  }
+.col-8 {  width: 66.66%;  }
+.col-9 {  width: 75%;  }
+.col-10 {  width: 83.33%;  }
+.col-11 {  width: 91.66%;  }
+.col-12 {  width: 100%;  }
 

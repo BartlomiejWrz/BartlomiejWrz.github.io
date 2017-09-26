@@ -3,77 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <title>My first WebSite</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+          initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="fontello/css/fontello.css">
 </head>
 <body>
+
 <div class="container">
     <header class="col-12">
         <div class="row">
-        <div class="img col-3">
+            <div class="img col-3">
 
-        </div>
-        <div class="info col-9">
-            <h1>Bartłomiej Wrzesiński</h1>
-            <h3>Junior Front End Developer</h3>
-        </div>
+            </div>
+            <div class="info col-9">
+                <h1>Bartłomiej Wrzesiński</h1>
+                <h3>Junior Front End Developer</h3>
+            </div>
         </div>
     </header>
-    <main>
+    <main class="col-12">
         <div class="row">
-        <article>
+            <aside class="col-12">
+                <p>My projects:</p>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://github.com/BartlomiejWrz/BartlomiejWrz.github.io">My
+                            project</a>
+                        <a/>
+                    </li>
+                    <li>
+                        <a target="_blank"
+                           href="https://jira.infoshareacademy.com/secure/RapidBoard.jspa?rapidView=89&projectKey=JFDZL1BB&view=planning">Group
+                            project</a>
+                    </li>
+                </ul>
+            </aside>
+            <article>
+                <div class="content col-12">
+                    <p>EXPERIANCE:</p>
+                </div>
 
-
-            <div class="content col-12">
-                <p>EXPERIANCE:</p>
-            </div>
-
-
-
-        </article>
-        <aside class="col-3">
-            <p>My projects:</p>
-            <ul>
-                <li>
-                    <a target="_blank" href="https://github.com/BartlomiejWrz/BartlomiejWrz.github.io">My project</a>
-                    <a/>
-                </li>
-                <li>
-                    <a target="_blank"
-                       href="https://jira.infoshareacademy.com/secure/RapidBoard.jspa?rapidView=89&projectKey=JFDZL1BB&view=planning">Group
-                        project</a>
-                </li>
-            </ul>
-
-        </aside>
+            </article>
         </div>
+
     </main>
 
 
-
-    <div class="form">
+    <div>
+        <div class="row">
         <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
             <p>FORM:</p>
             <input class="input " type="hidden" name="reply-to" value="bartlomiej18@op.pl">
             <br/>
+            <div>
             <input class="input input--name" placeholder="Your name:" type="text" name="name">
             <br/>
             <input class="input input--mail" placeholder="Your e-mail:" type="text" name="email">
             <br/>
+            </div>
 
-            <textarea class="input input--text" placeholder="Message:" rows="25" cols="50"
+            <textarea class="input input--text col-12" placeholder="Message:" rows="25" cols="50"
                       name="message"></textarea>
             <br/>
             <input class="input" type="submit" value="Send">
         </form>
+        </div>
     </div>
 
 
-    <div class="container">
+    <div>
 
         <div class="row">
-            <div class="col-xs-12 col-lg-12 social">
+            <div class="social col-12">
                 <a href="https://www.facebook.com/" target="_blank">
                     <div class="icon-facebook"></div>
                 </a>
@@ -93,7 +97,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer >
         <p>&copy; Bartłomiej Wrzesiński</p>
     </footer>
 </div>
