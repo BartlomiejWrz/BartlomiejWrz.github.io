@@ -1,10 +1,11 @@
 * {
-    background-color: black;
+
     color: white;
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-
-
+}
+body{
+    background-image: url("img/7123.jpg");
 }
 
 .container {
@@ -23,7 +24,7 @@ header {
     background-image: url("http://infoshareacademy.com/images/infoshare_og.png");
     background-repeat:no-repeat;
     background-size: cover;
-    height: 100%;
+
 
 }
 
@@ -53,16 +54,17 @@ h1, h3 {
 
 }
 
+
 aside {
     width: 100%;
     height: auto;
-    background-color: yellow;
+    background-color: #666666;
     text-align: center;
 }
 
 p {
     color: darkred;
-    background-color: yellow;
+    background-color: #666666;
     margin: 0;
 }
 
@@ -70,11 +72,11 @@ ul, li {
     list-style-type: none;
     text-align: center;
     padding: 20px;
-    background-color: yellow;
+    background-color: #666666;
 }
 
 a {
-    background-color: yellow;
+    background-color: #333333;
     color: darkred;
 }
 
@@ -87,7 +89,7 @@ a:hover {
     color: red;
 }
 
-        /*FORM*/
+    /*FORM*/
 .form {
     height: auto;
     width: auto;
@@ -127,11 +129,11 @@ a:hover {
 }
 
 
-/*SOCIALS*/
+    /*SOCIALS*/
 
 .social {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;background-color: #666666;
 
 
 }
@@ -159,6 +161,7 @@ a:hover {
 
 footer {
     text-align: center;
+    background-color: #666666;
 }
 
 
@@ -183,3 +186,43 @@ footer {
 .col-11 {  width: 91.66%;  }
 .col-12 {  width: 100%;  }
 
+    /*MEDIA*/
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .content{
+        float:left;
+        width:70%;
+    }
+    .projects{
+        float:right;
+        width:30%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .content{
+        float:left;
+        width:70%;
+    }
+    .projects{
+        float:right;
+        width:30%;
+    }
+}
