@@ -194,12 +194,16 @@ footer {
 
 @media only screen and (min-width: 768px){
 
+    .container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media only screen and (min-width: 992px){
     .container{
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .content{
         float:left;
