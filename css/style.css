@@ -44,6 +44,11 @@ h1, h3 {
 }
 
     /*MAIN*/
+h4{
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+}
 .content {
     height: auto;
     width: 100%;
@@ -55,7 +60,7 @@ h1, h3 {
 }
 
 .tech{
-    width: 100px;
+    width: 100%;
     padding: 20px;
 }
 
@@ -244,6 +249,7 @@ footer {
 }
 
 @media only screen and (min-width: 1200px){
+
     .container{
         margin-left: 15%;
         margin-right: 15%;
