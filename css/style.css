@@ -44,6 +44,15 @@ h1, h3 {
 }
 
     /*MAIN*/
+.experiance{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width:100%;
+    margin: 10px ;
+    padding: 5px;
+}
 h4{
     text-align: center;
     background-color: #333333;
@@ -66,11 +75,11 @@ h4{
 
 .exp{
     display: flex;
-    align-items: center;
+    align-items: inherit;
     justify-content: space-around;
     flex-direction: row;
-    width:100%;
-    margin: 20px 0 ;
+
+    margin: 10px  ;
 }
 .logo{
     width:100px;
@@ -222,6 +231,19 @@ footer {
     /*MEDIA*/
 
 @media only screen and (max-width: 768px){
+    .tech{
+
+        padding: 0px;
+    }
+    p {
+        color: darkred;
+        background-color: #666666;
+        margin: 0;
+        text-align: center;
+        padding: 0px;
+        font-size: 14px;
+    }
+
 
 }
 
