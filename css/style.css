@@ -1,6 +1,6 @@
 * {
 
-    color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
 }
@@ -14,7 +14,7 @@ main{
     margin: auto;
     background-color: #666666;
     position: relative;
-    transform: translate(0px, 10px);
+    transform: translate(0px, -100px);
 
 
 }
@@ -23,8 +23,12 @@ main{
     position:static;
     margin:auto;
     text-align: center;
-    width: 100%;
     padding: 20px;
+}
+
+.name{
+
+    transform: translate(0px, -200px);
 }
 
 header {
@@ -230,7 +234,7 @@ footer p{
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
-        width: 100%;
+
 
     }
 
