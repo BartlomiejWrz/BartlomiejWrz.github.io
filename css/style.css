@@ -9,6 +9,7 @@ main{
     background-color: #666666;
 }
 
+
 .container {
 
     margin: auto;
@@ -20,16 +21,23 @@ main{
 }
 
 .photography{
-    position:static;
+    position:absolute;
     margin:auto;
     text-align: center;
     padding: 20px;
+    z-index: -1;
 }
 
 .name{
 
-    transform: translate(0px, -200px);
+    transform: translate(0px, -400px);
+    opacity:0.7;
+    color:red;
 }
+ .title{
+     opacity:1;
+     color:black;
+ }
 
 header {
     height: auto;
@@ -82,6 +90,8 @@ h4{
 .tech{
     width: 100%;
     padding: 20px;
+    box-shadow: 3px 3px 30px 5px #ffffff;
+    border-radius: 5%;
 }
 
 .exp{
@@ -94,6 +104,7 @@ h4{
 }
 .logo{
     width:100px;
+    box-shadow: 3px 3px 30px 5px #ffffff;
 }
 .technology{
     display: flex;
@@ -114,7 +125,7 @@ aside {
 }
 
 p {
-    color: darkred;
+    color: black;
     background-color: #666666;
     margin: 0;
     text-align: center;
@@ -130,7 +141,7 @@ ul, li {
 
 a {
     background-color: #333333;
-    color: darkred;
+    color: black;
 }
 
 a:link {
@@ -212,6 +223,18 @@ footer p{
     /*MEDIA*/
 
 @media only screen and (max-width: 768px){
+    .photography{
+        position:static;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    .name{
+
+        transform: translate(0px, -150px);
+    }
+
     .tech{
 
         padding: 0px;
@@ -234,8 +257,11 @@ footer p{
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
+    }
 
+    .name{
 
+        transform: translate(0px, -250px);
     }
 
     .container{
@@ -252,6 +278,10 @@ footer p{
         text-align: center;
         width: 100%;
 
+    }
+    .name{
+
+        transform: translate(0px, -250px);
     }
 
     .container{
@@ -275,8 +305,14 @@ footer p{
         padding-left: 15%;
         padding-right: 15%;
         text-align: center;
-        width: 100%;
+        max-width: 100%;
+        align-items: center;
 
+    }
+
+    .name{
+
+        transform: translate(0px, -450px);
     }
 
     .container{
