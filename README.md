@@ -3,5 +3,5 @@
 
 It's a project of my first personal website
 
-[link to working website] (https://bartlomiejwrz.github.io)
+[link to working website] (Website is rebuilding. Ready soon...)
 
