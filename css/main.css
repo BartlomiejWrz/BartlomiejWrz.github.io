@@ -2,13 +2,16 @@ header{
     height: 100vh;
 }
 
-.business_card-d{
+.business_card{
     height:100%;
 }
 
-.business_card{
+.business_card--child{
     height: 100%;
-    background: red;
+    background-image:url("./../img/cprogrammingw1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
  }
 
 
