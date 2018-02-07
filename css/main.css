@@ -3,16 +3,30 @@ header{
 }
 
 .business_card{
-    height:100%;
-}
-
-.business_card--child{
     height: 100%;
-    background-image:url("./../img/cprogrammingw1.png");
+    background-image: url("./../img/cprogrammingw1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
- }
+    background-position: center;  
+    display:flex;
+}
+
+.business_card--inner{
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 25vh;
+    
+    
+    
+}
+
+.photo{
+    max-height: 50vh; 
+    border-radius: 50%;
+ 
+   
+}
 
 
 
