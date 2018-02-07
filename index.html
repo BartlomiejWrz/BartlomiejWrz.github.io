@@ -12,15 +12,17 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/about_me.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="fontello/css/fontello.css">
 </head>
 
 <body>
 
-<header class="container-fluid" >
+<header class="container-fluid ">
+    
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Menu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,31 +32,41 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#aboutMe">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Technologies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link disabled" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+    
     <div class="row business_card">
-        <div class="business_card--child col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+        <div class="business_card--inner col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+            <div class=" d-flex justify-content-center ">
+            <div class="photo ">
+                <img src="./img/DSC_0165.JPG" class="img-fluid photo" alt="personal photo">
+            </div>
+            </div>
             <h1>Junior front end developer</h1>
+          
         </div>
     </div>
     
     
     
 </header>
-    
-    <div>
-        <h2>About me section</h2>
+    <div class="container">
+        <div id="aboutMe" class="row personality">
+            <h2>About me section</h2>
+        </div>
     </div>
-
 
 
 
