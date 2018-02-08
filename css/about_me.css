@@ -1,7 +1,44 @@
-
+article{
+    padding-bottom: 5vh;
+}
 
 .intro h1{
     text-transform: uppercase;
     text-align: center;
-   
+}
+
+.programmer{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/carousel/thumb-1920-499786.png")
+}
+
+.astronomer{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/carousel/3876390-astronomy-wallpapers.jpg")
+}
+
+.fiction{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/carousel/TZq5FHQ.jpg")
+}
+
+.science{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/carousel/science-wallpaper-4.jpg")
 }
