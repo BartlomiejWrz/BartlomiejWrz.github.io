@@ -68,3 +68,8 @@ article{
 .science--font{
     font-family: 'Bangers', cursive;
 }
+
+.quote{
+    align-content: center;
+    background-color: #2D2D2D;
+}
