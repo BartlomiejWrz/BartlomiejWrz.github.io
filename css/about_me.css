@@ -1,5 +1,11 @@
 article{
     padding-bottom: 5vh;
+    background-color: white;
+    
+}
+
+.name{
+    padding-top: 4vh;
 }
 
 .intro h1{
@@ -7,38 +13,58 @@ article{
     text-align: center;
 }
 
-.programmer{
+.intro_specificaction{
+    border: solid 1px aqua;
+    text-align: center;
+    margin: 2vh;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.carousel slide{
+    border-top:  -top: 5vh;
+}
+
+.programmer, .astronomer, .fiction, .science{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 50vh;
-    background-image: url("../images/carousel/thumb-1920-499786.png")
+    text-align: center;
+    padding-bottom: 25vh;
+}
+
+.programmer{
+    background-image: url("../images/carousel/front-end.png")
+}
+
+.programmer--font{
+    font-family: 'VT323', monospace;
+    color:black;
 }
 
 .astronomer{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
     background-image: url("../images/carousel/3876390-astronomy-wallpapers.jpg")
 }
 
+.astronomer-font{
+    font-family: 'Magra', sans-serif;
+    color:white;
+}
+
 .fiction{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
     background-image: url("../images/carousel/TZq5FHQ.jpg")
 }
 
+.fiction--font{
+    font-family: 'Carter One', cursive;
+    color:black;
+}
+
 .science{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
     background-image: url("../images/carousel/science-wallpaper-4.jpg")
+}
+
+.science--font{
+    font-family: 'Bangers', cursive;
 }

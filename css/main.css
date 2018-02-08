@@ -1,9 +1,10 @@
-/*body{
-    font-family: 'Bangers', cursive;
-    font-family: 'Marck Script', cursive;
-    font-family: 'VT323', monospace;
-    font-family: 'Magra', sans-serif;
-}*/
+body{
+    background-image: url("./../images/Binary-Technology-Wallpaper-Blue-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;            
+
+}
 
 header{
     height: 100vh;
