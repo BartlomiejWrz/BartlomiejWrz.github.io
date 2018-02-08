@@ -1,3 +1,10 @@
+/*body{
+    font-family: 'Bangers', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'VT323', monospace;
+    font-family: 'Magra', sans-serif;
+}*/
+
 header{
     height: 100vh;
 }
@@ -16,16 +23,11 @@ header{
     color: white;
     text-align: center;
     padding-top: 25vh;
-    
-    
-    
 }
 
 .photo{
     max-height: 50vh; 
     border-radius: 50%;
- 
-   
 }
 
 
