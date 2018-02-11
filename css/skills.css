@@ -1,9 +1,23 @@
 .skils {
-    background-image: url(./../images/o-THE-MATRIX-facebook.jpg);
+    background-image: url(./../images/code-wallpaper-4.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 1000px;
+  
+}
+
+.skills--title{
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 4vh; 
+}
+
+.skills-icons{
+    display:flex;
+
 }
 
 
