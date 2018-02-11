@@ -3,7 +3,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    display: flex;
+    
   
 }
 
@@ -16,12 +16,12 @@
     padding-bottom: 0;
 }
 
-.skills-icons{
-    align-items: center;
-    justify-content: center;
-    
-    
-   
+.skills-box{
+    display:flex;
+}
+
+.skills-box__icon{
+  display:inline-block;
 }
 
 
