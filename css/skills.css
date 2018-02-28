@@ -18,12 +18,12 @@
 
 .skills-box{
     justify-content: center;
+    text:center;
 }
 
 .skills_box--icon{
     padding: 15px;
-    padding-top: 15px;
-    justify-content: center;
+    
         
 }
 
