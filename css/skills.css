@@ -17,11 +17,14 @@
 }
 
 .skills-box{
-    display:flex;
+    justify-content: center;
 }
 
-.skills-box__icon{
-  display:inline-block;
+.skills_box--icon{
+    padding: 15px;
+    padding-top: 15px;
+    justify-content: center;
+        
 }
 
 
