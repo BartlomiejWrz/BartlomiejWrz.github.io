@@ -1,5 +1,7 @@
 body{
-    background-image: url("./../images/Binary-Technology-Wallpaper-Blue-Background.jpg");
+    
+    background-color: #343A40;
+    /*background-image: url("./../images/Binary-Technology-Wallpaper-Blue-Background.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;            
