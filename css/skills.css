@@ -3,8 +3,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    
-  
+    padding-bottom: 0;
 }
 
 .skills--title{
@@ -18,14 +17,11 @@
 
 .skills-box{
     justify-content: center;
-    padding:100px;
-  
+    padding:50px;
 }
 
 .skills_box--icon{
-    padding: 15px;
-    
-        
+    padding-top:15px
 }
 
 

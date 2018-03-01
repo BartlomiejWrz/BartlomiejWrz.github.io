@@ -1,0 +1,26 @@
+.projects{
+    background-color:#343A40;
+    text-align: center;
+    color:white;
+}
+.projects--box{
+    text-align: center;
+    color:white;
+    height:auto;
+    justify-content: center;
+    padding:20px;
+}
+
+.projects--box__icons{
+    padding-top:5vh
+}
+
+.separator{
+    background-color: red;
+    text-align: center;
+    background: red;
+    padding-top: 100px !important;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    
+}
+
