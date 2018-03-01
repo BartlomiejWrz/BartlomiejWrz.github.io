@@ -3,24 +3,33 @@
     text-align: center;
     color:white;
 }
-.projects--box{
-    text-align: center;
-    color:white;
-    height:auto;
+.projects_box{
     justify-content: center;
-    padding:20px;
+    padding:50px;
 }
 
-.projects--box__icons{
+.projects_box--icons{
     padding-top:5vh
 }
 
 .separator{
     background-color: red;
     text-align: center;
-    background: red;
     padding-top: 100px !important;
     clip-path: polygon(0 0, 100% 0, 50% 100%);
     
 }
+
+
+
+.skills-box{
+    justify-content: center;
+    padding:50px;
+}
+
+.skills_box--icon{
+    padding-top:15px
+}
+
+
 

@@ -11,8 +11,8 @@
     text-align: center;
     font-size: 10vw;
     font-family: 'Press Start 2P', cursive;
-    padding-top: 4vh; 
-    padding-bottom: 0;
+    padding: 4vh 0 0 0; 
+   
 }
 
 .skills-box{
@@ -23,6 +23,8 @@
 .skills_box--icon{
     padding-top:15px
 }
+
+
 
 
 
