@@ -5,20 +5,14 @@
 }
 .projects_box{
     justify-content: center;
-    padding:50px;
+    padding:5vh 5vh 0 5vh ;
 }
 
 .projects_box--icons{
     padding-top:5vh
 }
 
-.separator{
-    background-color: red;
-    text-align: center;
-    padding-top: 100px !important;
-    clip-path: polygon(0 0, 100% 0, 50% 100%);
-    
-}
+
 
 
 

@@ -1,0 +1,11 @@
+.separator{
+    background-color:#343A40;
+    text-align: center;
+    padding-top: 100px !important;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);    
+}
+
+.contact{
+    background-color: darkblue;
+    height:600px;
+}
