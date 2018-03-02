@@ -1,11 +1,26 @@
 .separator{
     background-color:#343A40;
     text-align: center;
-    padding-top: 100px !important;
+    padding: 100px 0 0 0  !important;
     clip-path: polygon(0 0, 100% 0, 50% 100%);    
 }
 
 .contact{
-    background-color: darkblue;
+    background-image: url("./../images/contactBackground.png"); 
+    background-position: center;
     height:600px;
+    padding:0;
+}
+footer{
+    color:white;
+    text-align: center;
+    padding:1vh 0 1vh 0 ;
+}
+
+i{
+    color:white;
+}
+
+p{
+    color:white;
 }
