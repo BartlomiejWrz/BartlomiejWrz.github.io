@@ -6,21 +6,30 @@
 }
 
 .contact{
-    background-image: url("./../images/contactBackground.png"); 
+    background-image: url("./../images/code-wallpaper-4.png"); 
     background-position: center;
-    height:600px;
+    height:auto;
     padding:0;
 }
+
+.contact_box--title{
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+     
+    
+}
+
 footer{
     color:white;
     text-align: center;
     padding:1vh 0 1vh 0 ;
 }
 
-i{
-    color:white;
+.contact_box--icon{
+    padding:50px;
 }
 
-p{
-    color:white;
+.contact_box--icon img{
+     border-radius:15%;
 }
