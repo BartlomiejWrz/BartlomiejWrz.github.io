@@ -4,13 +4,8 @@ $(document).ready(function() {
     })
 });
 
-getElementById()
-
-$("#linkdin").onmouseover(function(){
-    
-})
 
 $(document).ready(function() {
     $( "#linkdin" ).mouseover(function(){
-        $(this).attr("src", "./images/contact/linkdin-logo.png");
+        $(this).attr("src", "./images/contact/linkedin-logo.png");
     });
