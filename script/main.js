@@ -3,3 +3,14 @@ $(document).ready(function() {
         interval: 10000
     })
 });
+
+getElementById()
+
+$("#linkdin").onmouseover(function(){
+    
+})
+
+$(document).ready(function() {
+    $( "#linkdin" ).mouseover(function(){
+        $(this).attr("src", "./images/contact/linkdin-logo.png");
+    });
