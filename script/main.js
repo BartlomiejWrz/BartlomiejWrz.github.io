@@ -1,11 +1,9 @@
-$(document).ready(function() {
-    $('.carousel').carousel({
-        interval: 10000
-    })
-});
+function changePicture(){
+    document.getElementById('napis').style.color:red;
+    //src = "./images/contact/linkedin-logo.png";
+}
+   
 
 
-$(document).ready(function() {
-    $( "#linkdin" ).mouseover(function(){
-        $(this).attr("src", "./images/contact/linkedin-logo.png");
-    });
+    
+    
