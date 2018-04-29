@@ -26,15 +26,25 @@ footer{
 
 .github :hover{
     box-shadow: 0px 0px 85px 27px rgba(173,173,173,1);
+    -webkit-box-shadow: 0px 0px 85px 27px rgba(173,173,173,1);
+    -moz-box-shadow: 0px 0px 85px 27px rgba(173,173,173,1);
 }
 
 .linkin :hover{
     box-shadow: 0px 0px 85px 27px rgba(0,119,181,1);
+    -webkit-box-shadow: 0px 0px 85px 27px rgba(0,119,181,1);
+    -moz-box-shadow: 0px 0px 85px 27px rgba(0,119,181,1);
 }
 .gmail :hover{
     box-shadow: 0px 0px 85px 27px rgba(209,65,48,1);
     -webkit-box-shadow: 0px 0px 85px 27px rgba(209,65,48,1);
     -moz-box-shadow: 0px 0px 85px 27px rgba(209,65,48,1);
+}
+
+.phone :hover{
+    -webkit-box-shadow: 0px 0px 85px 27px rgba(54,240,17,1);
+    -moz-box-shadow: 0px 0px 85px 27px rgba(54,240,17,1);
+    box-shadow: 0px 0px 85px 27px rgba(54,240,17,1);
 }
 
 .contact_box--icon{
