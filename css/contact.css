@@ -1,3 +1,6 @@
+#contact{
+    background-color: #343A40;
+}
 .separator{
     background-color:#343A40;
     text-align: center;
@@ -8,6 +11,7 @@
 .contact{
     background-image: url("./../images/code-wallpaper-4.png"); 
     background-position: center;
+    background-attachment: fixed;
     height:auto;
     padding:0;
 }
