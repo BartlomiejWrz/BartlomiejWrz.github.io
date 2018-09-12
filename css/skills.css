@@ -12,7 +12,7 @@
 .skills--title{
     color: white;
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: 'Press Start 2P', cursive;
     padding: 4vh 0 0 0; 
    
@@ -24,7 +24,8 @@
 }
 
 .skills_box--icon{
-    padding-top:15px
+    padding-top:15px;
+
 }
 
 
