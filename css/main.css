@@ -13,6 +13,7 @@ header{
     height: 100vh;
 }
 
+
 .scroll{
     text-decoration:none;
     color:white;
@@ -20,6 +21,50 @@ header{
 .scroll:hover{
     color:white;
 }
+
+
+
+/*.menu_item{
+    height: 5vh;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    display:flex;
+    padding:0;
+    z-index:1;
+    box-sizing: border-box;
+ 
+}
+
+.menu_item--inner{
+width: 20%;
+height:8vh;
+padding:0;
+margin:0;
+background-color: #343A40;
+text-align: center;
+
+}
+
+.scroll{
+    position:absolute;
+    top:50%;
+    text-decoration:none;
+    color:white;
+    line-height:20px;
+    font-size:2vh;
+}
+.scroll:hover{
+    color:white;
+}*/
+
+
+
+
+
+
+
 .business_card{
     height: 100%;
     background-image: url("./../images/cprogrammingw1.png");
@@ -48,7 +93,6 @@ header{
     position: absolute;
     bottom:7%;
     left:50%;
-    transform: translate(-50%);
     border-radius: 50%;
     font-size: 5vh;
     text-align: center;

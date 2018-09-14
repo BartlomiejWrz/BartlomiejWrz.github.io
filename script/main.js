@@ -1,5 +1,5 @@
 
-
+// scrollowanie strony do wyznaczonych punktów
 $(document).ready(function(){
     $(".scroll").on("click", function(event){
         if(this.hash !== "") {
