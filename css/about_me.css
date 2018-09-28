@@ -1,74 +1,89 @@
-article{
-    background-color: white;
-    
+article {
+  background-color: white;
 }
 
-.name{
-    padding-top: 5vh;
+.name {
+  padding-top: 5vh;
 }
 
-.intro h1{
-    text-transform: uppercase;
-    text-align: center;
+.intro h1 {
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.intro_specificaction{
-    border: solid 1px aqua;
-    text-align: center;
-    margin: 2vh;
-    font-family: 'Fredericka the Great', cursive;
+.intro_specificaction {
+  border: solid 1px aqua;
+  text-align: center;
+  margin: 2vh;
+  font-family: "Fredericka the Great", cursive;
 }
 
-.carousel slide{
-    border-top:  -top: 5vh;
+.carousel slide {
+  border-top: 5vh;
 }
 
-.programmer, .astronomer, .fiction, .science{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
-    text-align: center;
-    padding-bottom: 25vh;
+.programmer,
+.astronomer,
+.fiction,
+.science {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  padding-bottom: 25vh;
 }
 
-.programmer{
-    background-image: url("../images/carousel/front-end.png")
+.programmer {
+  background-image: url("../images/carousel/front-end.png");
 }
 
-.programmer--font{
-    font-family: 'VT323', monospace;
-    color:black;
+.programmer--font {
+  font-family: "VT323", monospace;
+  color: black;
 }
 
-.astronomer{
-    background-image: url("../images/carousel/3876390-astronomy-wallpapers.jpg")
+.astronomer {
+  background-image: url("../images/carousel/3876390-astronomy-wallpapers.jpg");
 }
 
-.astronomer-font{
-    font-family: 'Magra', sans-serif;
-    color:white;
+.astronomer-font {
+  font-family: "Magra", sans-serif;
+  color: white;
 }
 
-.fiction{
-    background-image: url("../images/carousel/TZq5FHQ.jpg")
+.fiction {
+  background-image: url("../images/carousel/TZq5FHQ.jpg");
 }
 
-.fiction--font{
-    font-family: 'Carter One', cursive;
-    color:black;
+.fiction--font {
+  font-family: "Carter One", cursive;
+  color: black;
 }
 
-.science{
-    background-image: url("../images/carousel/science-wallpaper-4.jpg")
+.science {
+  background-image: url("../images/carousel/science-wallpaper-4.jpg");
 }
 
-.science--font{
-    font-family: 'Bangers', cursive;
+.science--font {
+  font-family: "Bangers", cursive;
 }
 
-.quote{
-    align-content: center;
-    background-color: #2D2D2D;
+.quote {
+  align-content: center;
+  background-color: #2d2d2d;
+}
+
+/*RWD*/
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }

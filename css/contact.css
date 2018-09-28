@@ -1,60 +1,74 @@
-#contact{
-    background-color: #343A40;
+#contact {
+  background-color: #343a40;
 }
-.separator{
-    background-color:#343A40;
-    text-align: center;
-    padding: 100px 0 0 0  !important;
-    clip-path: polygon(0 0, 100% 0, 50% 100%);    
-}
-
-.contact{
-    background-image: url("./../images/code-wallpaper-4.png"); 
-    background-position: center;
-    background-attachment: fixed;
-    height:auto;
-    padding:0;
+.separator {
+  background-color: #343a40;
+  text-align: center;
+  padding: 100px 0 0 0 !important;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
 }
 
-.contact_box--title{
-    color: white;
-    text-align: center;
-    font-size: 10vw;  
+.contact {
+  background-image: url("./../images/code-wallpaper-4.png");
+  background-position: center;
+  background-attachment: fixed;
+  height: auto;
+  padding: 0;
 }
 
-footer{
-    color:white;
-    text-align: center;
-    padding:1vh 0 1vh 0 ;
+.contact_box--title {
+  color: white;
+  text-align: center;
+  font-size: 10vw;
 }
 
-.github :hover{
-    box-shadow: 0px 0px 85px 27px rgba(173,173,173,1);
-    -webkit-box-shadow: 0px 0px 85px 27px rgba(173,173,173,1);
-    -moz-box-shadow: 0px 0px 85px 27px rgba(173,173,173,1);
+footer {
+  color: white;
+  text-align: center;
+  padding: 1vh 0 1vh 0;
 }
 
-.linkin :hover{
-    box-shadow: 0px 0px 85px 27px rgba(0,119,181,1);
-    -webkit-box-shadow: 0px 0px 85px 27px rgba(0,119,181,1);
-    -moz-box-shadow: 0px 0px 85px 27px rgba(0,119,181,1);
-}
-.gmail :hover{
-    box-shadow: 0px 0px 85px 27px rgba(209,65,48,1);
-    -webkit-box-shadow: 0px 0px 85px 27px rgba(209,65,48,1);
-    -moz-box-shadow: 0px 0px 85px 27px rgba(209,65,48,1);
+.github :hover {
+  box-shadow: 0px 0px 85px 27px rgba(173, 173, 173, 1);
+  -webkit-box-shadow: 0px 0px 85px 27px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 0px 0px 85px 27px rgba(173, 173, 173, 1);
 }
 
-.phone :hover{
-    -webkit-box-shadow: 0px 0px 85px 27px rgba(54,240,17,1);
-    -moz-box-shadow: 0px 0px 85px 27px rgba(54,240,17,1);
-    box-shadow: 0px 0px 85px 27px rgba(54,240,17,1);
+.linkin :hover {
+  box-shadow: 0px 0px 85px 27px rgba(0, 119, 181, 1);
+  -webkit-box-shadow: 0px 0px 85px 27px rgba(0, 119, 181, 1);
+  -moz-box-shadow: 0px 0px 85px 27px rgba(0, 119, 181, 1);
+}
+.gmail :hover {
+  box-shadow: 0px 0px 85px 27px rgba(209, 65, 48, 1);
+  -webkit-box-shadow: 0px 0px 85px 27px rgba(209, 65, 48, 1);
+  -moz-box-shadow: 0px 0px 85px 27px rgba(209, 65, 48, 1);
 }
 
-.contact_box--icon{
-    padding:50px;
+.phone :hover {
+  -webkit-box-shadow: 0px 0px 85px 27px rgba(54, 240, 17, 1);
+  -moz-box-shadow: 0px 0px 85px 27px rgba(54, 240, 17, 1);
+  box-shadow: 0px 0px 85px 27px rgba(54, 240, 17, 1);
 }
 
-.contact_box--icon img{
-     border-radius:15%;
+.contact_box--icon {
+  padding: 75px;
+}
+
+.contact_box--icon img {
+  border-radius: 15%;
+}
+
+/*RWD*/
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }
