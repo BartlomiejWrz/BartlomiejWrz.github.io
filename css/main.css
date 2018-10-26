@@ -1,25 +1,24 @@
+body {
 
-
-body{
-    
     background-color: #343A40;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;            
+    background-position: center;
 
 }
 
-header{
+header {
     height: 100vh;
 }
 
 
-.scroll{
-    text-decoration:none;
-    color:white;
+.scroll {
+    text-decoration: none;
+    color: white;
 }
-.scroll:hover{
-    color:white;
+
+.scroll:hover {
+    color: white;
 }
 
 
@@ -65,53 +64,74 @@ text-align: center;
 
 
 
-.business_card{
+.business_card {
     height: 100%;
     background-image: url("./../images/cprogrammingw1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;  
-    display:flex;
+    background-position: center;
+    display: flex;
 }
 
-.business_card--inner{
+.business_card--inner {
     height: 100%;
     color: white;
     text-align: center;
     padding-top: 25vh;
 }
 
-.photo{
-    max-height: 50vh; 
+.photo {
+    max-height: 45vh;
     border-radius: 50%;
 }
 
-#arrow{
-    width: 64px;
-    height:64px;
+#arrow {
+    width: 10vh;
+    height: 10vh;
     border: 5px solid white;
     position: absolute;
-    bottom:7%;
-    left:50%;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%);
     border-radius: 50%;
     font-size: 5vh;
     text-align: center;
     overflow: hidden;
-    
+
 }
 
-.arrowPicture{
+.arrowPicture {
     animation: arrow 1.6s infinite linear;
 }
 
-@keyframes arrow{
-    0%{transform: translateY(-50px)}
-    50%{transform: translateY(0px)}
-    100%{transform: translateY(50px)}
+@keyframes arrow {
+    0% {
+        transform: translateY(-50px)
+    }
+
+    50% {
+        transform: translateY(0px)
+    }
+
+    100% {
+        transform: translateY(50px)
+    }
 }
 
-#arrow:hover{
-    cursor:pointer;
+#arrow:hover {
+    cursor: pointer;
 }
 
+/*RWD*/
+@media (max-width: 767px) {
+    .photo {
+        max-height: 35vh;
+    }
 
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
